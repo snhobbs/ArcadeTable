@@ -1,0 +1,26 @@
+var struct_s_c_s_i___inquiry___response__t =
+[
+    [ "AdditionalLength", "struct_s_c_s_i___inquiry___response__t.html#a3d29c10a1a4cffc19bf1696d48629697", null ],
+    [ "AERC", "struct_s_c_s_i___inquiry___response__t.html#a0bb880c012f97dff06d3c0b6f936535f", null ],
+    [ "CmdQue", "struct_s_c_s_i___inquiry___response__t.html#ab048e753a75e771eaad265fd12b9627b", null ],
+    [ "DeviceType", "struct_s_c_s_i___inquiry___response__t.html#aaa63c4342985d5cb02d807eb430506e2", null ],
+    [ "Linked", "struct_s_c_s_i___inquiry___response__t.html#aba51d3d92cd6d9f7b78e7faa767f2744", null ],
+    [ "NormACA", "struct_s_c_s_i___inquiry___response__t.html#aee219b2c9d128fa2c5a5c584965b5155", null ],
+    [ "PeripheralQualifier", "struct_s_c_s_i___inquiry___response__t.html#afee356b58a5f0476ed91b42108b583cc", null ],
+    [ "ProductID", "struct_s_c_s_i___inquiry___response__t.html#a2114ef89a483e85f31796497ce940f4a", null ],
+    [ "RelAddr", "struct_s_c_s_i___inquiry___response__t.html#a9de977b11e0cefe3f9f52e038ca1dc9f", null ],
+    [ "Removable", "struct_s_c_s_i___inquiry___response__t.html#a10330a36d857b35020b3b8e06fd179d9", null ],
+    [ "Reserved", "struct_s_c_s_i___inquiry___response__t.html#a27e51ec1370ba4ec394fd861312269fe", null ],
+    [ "Reserved2", "struct_s_c_s_i___inquiry___response__t.html#a15caaa4c98cd437bd0cf44f20499fc81", null ],
+    [ "Reserved3", "struct_s_c_s_i___inquiry___response__t.html#ade3dd3f20046f7afeca8c34d20a0c447", null ],
+    [ "Reserved4", "struct_s_c_s_i___inquiry___response__t.html#aa267d316d762e90616882f5759ad3f56", null ],
+    [ "ResponseDataFormat", "struct_s_c_s_i___inquiry___response__t.html#a508f9871865c6b5ec21bf83cce3410a9", null ],
+    [ "RevisionID", "struct_s_c_s_i___inquiry___response__t.html#ac5eae20570f05d9d76692fd4cadfd4b7", null ],
+    [ "SoftReset", "struct_s_c_s_i___inquiry___response__t.html#a560f1b87eee064058864b4f31957b7bf", null ],
+    [ "Sync", "struct_s_c_s_i___inquiry___response__t.html#ab20dfa34774fc31a2012e8e9413a6440", null ],
+    [ "TrmTsk", "struct_s_c_s_i___inquiry___response__t.html#a32200d752d544217ff351784aed2ab6b", null ],
+    [ "VendorID", "struct_s_c_s_i___inquiry___response__t.html#ac50a6dff2c6aea32e27f8b99595926dc", null ],
+    [ "Version", "struct_s_c_s_i___inquiry___response__t.html#aebe8c436e3884990a18c56ebc863fa07", null ],
+    [ "WideBus16Bit", "struct_s_c_s_i___inquiry___response__t.html#a6cb9cb09ca1b939d45c76613aec47d0d", null ],
+    [ "WideBus32Bit", "struct_s_c_s_i___inquiry___response__t.html#a9f9f5f2b8b48b1a304d6f3163d924b73", null ]
+];

@@ -1,0 +1,29 @@
+sh: 1: Syntax error: Unterminated quoted string
+sh: 1: Syntax error: Unterminated quoted string
+Traceback (most recent call last):
+  File "./runRetroArchGame.py", line 7, in <module>
+    GAME=sys.argv[2]
+IndexError: list index out of range
+sh: 1: Syntax error: Unterminated quoted string
+Failed to open /home/simon/RetroPie/roms/gbc/pwnYellow.gbc: No such file or directory
+Failed to open /home/simon/RetroPie/roms/gbc/pnYellow.gbc: No such file or directory
+sh: 1: Syntax error: Unterminated quoted string
+Traceback (most recent call last):
+  File "./runRetroArchGame.py", line 7, in <module>
+    GAME=sys.argv[2]
+IndexError: list index out of range
+sh: 1: Syntax error: Unterminated quoted string
+sh: 1: Syntax error: Unterminated quoted string
+sh: 1: Syntax error: Unterminated quoted string
+sh: 1: Syntax error: Unterminated quoted string
+sh: 1: Syntax error: Unterminated quoted string
+sh: 1: Syntax error: Unterminated quoted string
+sh: 1: Syntax error: Unterminated quoted string
+sh: 1: Syntax error: Unterminated quoted string
+sh: 1: Syntax error: Unterminated quoted string
+Traceback (most recent call last):
+  File "serialRead.py", line 13, in <module>
+    incoming = ser.readline().strip()
+  File "/usr/lib/python2.7/dist-packages/serial/serialposix.py", line 446, in read
+    ready,_,_ = select.select([self.fd],[],[], self._timeout)
+KeyboardInterrupt

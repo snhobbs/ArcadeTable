@@ -1,0 +1,22 @@
+var searchData=
+[
+  ['pima_5fresponse_5fgeneralerror',['PIMA_RESPONSE_GeneralError',['../group___group___u_s_b_class_s_i_common.html#gga78d8ddd80c7c0d3f7d2b766d346044c7ad71270dbf01ec6f496d1debe7dc082e8',1,'StillImage.h']]],
+  ['pima_5fresponse_5finvalidtransaction',['PIMA_RESPONSE_InvalidTransaction',['../group___group___u_s_b_class_s_i_common.html#gga78d8ddd80c7c0d3f7d2b766d346044c7aaf49a06c32e431bd25807f350b0fa524',1,'StillImage.h']]],
+  ['pima_5fresponse_5fok',['PIMA_RESPONSE_OK',['../group___group___u_s_b_class_s_i_common.html#gga78d8ddd80c7c0d3f7d2b766d346044c7a88b88c06c02b7940e3f40da99693aff5',1,'StillImage.h']]],
+  ['pima_5fresponse_5foperationnotsupported',['PIMA_RESPONSE_OperationNotSupported',['../group___group___u_s_b_class_s_i_common.html#gga78d8ddd80c7c0d3f7d2b766d346044c7a2ca53739d27a910cd4444bcfa1149c9e',1,'StillImage.h']]],
+  ['pima_5fresponse_5fparameternotsupported',['PIMA_RESPONSE_ParameterNotSupported',['../group___group___u_s_b_class_s_i_common.html#gga78d8ddd80c7c0d3f7d2b766d346044c7aa2daf17602a6a86781aeaf90313b295f',1,'StillImage.h']]],
+  ['pima_5fresponse_5fsessionnotopen',['PIMA_RESPONSE_SessionNotOpen',['../group___group___u_s_b_class_s_i_common.html#gga78d8ddd80c7c0d3f7d2b766d346044c7a424cb97a1a522e02e09ee0975ed45434',1,'StillImage.h']]],
+  ['pipe_5freadywait_5fdevicedisconnected',['PIPE_READYWAIT_DeviceDisconnected',['../group___group___pipe_r_w.html#ggafe05d0620e5882aced3764a691a11152ae4befd28416d0bb3b5f0c5fb8693b192',1,'Pipe.h']]],
+  ['pipe_5freadywait_5fnoerror',['PIPE_READYWAIT_NoError',['../group___group___pipe_r_w.html#ggafe05d0620e5882aced3764a691a11152aa76ab88bf27a7a9cf3cd489229e0ef8a',1,'Pipe.h']]],
+  ['pipe_5freadywait_5fpipestalled',['PIPE_READYWAIT_PipeStalled',['../group___group___pipe_r_w.html#ggafe05d0620e5882aced3764a691a11152a33cd79b9ef1b7b85107ffafc28c32c81',1,'Pipe.h']]],
+  ['pipe_5freadywait_5ftimeout',['PIPE_READYWAIT_Timeout',['../group___group___pipe_r_w.html#ggafe05d0620e5882aced3764a691a11152a5e2a8c840c4a5756ebd426f935f18f20',1,'Pipe.h']]],
+  ['pipe_5frwstream_5fcallbackaborted',['PIPE_RWSTREAM_CallbackAborted',['../group___group___pipe_r_w.html#ggab83460617bb7a5c928308a71307f237ca7d0f450a652e469b04927f66e5b38db9',1,'Pipe.h']]],
+  ['pipe_5frwstream_5fdevicedisconnected',['PIPE_RWSTREAM_DeviceDisconnected',['../group___group___pipe_r_w.html#ggab83460617bb7a5c928308a71307f237ca3ed82e688268bdac5c699cdf768f3c73',1,'Pipe.h']]],
+  ['pipe_5frwstream_5fnoerror',['PIPE_RWSTREAM_NoError',['../group___group___pipe_r_w.html#ggab83460617bb7a5c928308a71307f237ca81ed89d68a4291a93afaadb5bb21c93a',1,'Pipe.h']]],
+  ['pipe_5frwstream_5fpipestalled',['PIPE_RWSTREAM_PipeStalled',['../group___group___pipe_r_w.html#ggab83460617bb7a5c928308a71307f237ca6e508da1fa97b1a9166373d47d1f3571',1,'Pipe.h']]],
+  ['pipe_5frwstream_5ftimeout',['PIPE_RWSTREAM_Timeout',['../group___group___pipe_r_w.html#ggab83460617bb7a5c928308a71307f237cac47510e7af51a05d5293e450c28d923f',1,'Pipe.h']]],
+  ['prnt_5fenumerror_5fendpointsnotfound',['PRNT_ENUMERROR_EndpointsNotFound',['../group___group___u_s_b_class_printer_host.html#gga1ffafe818055d81b825d02304caa31caa2a455205de8e0476ef7a5aca5f3fb4c5',1,'Printer.h']]],
+  ['prnt_5fenumerror_5finvalidconfigdescriptor',['PRNT_ENUMERROR_InvalidConfigDescriptor',['../group___group___u_s_b_class_printer_host.html#gga1ffafe818055d81b825d02304caa31caab3681fdbd770780dab67fec313508365',1,'Printer.h']]],
+  ['prnt_5fenumerror_5fnoerror',['PRNT_ENUMERROR_NoError',['../group___group___u_s_b_class_printer_host.html#gga1ffafe818055d81b825d02304caa31caadd214363bd5e2f6613f0072786238e68',1,'Printer.h']]],
+  ['prnt_5fenumerror_5fnoprinterinterfacefound',['PRNT_ENUMERROR_NoPrinterInterfaceFound',['../group___group___u_s_b_class_printer_host.html#gga1ffafe818055d81b825d02304caa31caa1b89200f4ea3defecdd1a3ad1d8168e1',1,'Printer.h']]]
+];

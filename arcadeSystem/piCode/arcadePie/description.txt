@@ -1,0 +1,28 @@
+functionality:
+
+buttons:
+	power/reset -> same button
+	volume
+	check nfc
+
+leds:
+	power on
+	nfc glow
+	
+nfc procedure
+	1) press check nfc button
+	2) nfc leds on
+	3) place coaster on glow
+	4) check to see if the rom and system exist
+	5) blink leds 3 times for accepted then off, slow blink 5 times for no game match, return to previous game until button pressed again
+	if accepted:
+	6) close current game (command?)
+	7) runcommand of game
+	8) return polling nfc pin
+
+functions
+	reset
+	power off
+	nfc blink
+	spi to nfc
+	run game
