@@ -34,3 +34,5 @@
 arduinoJoySticks/*
 examples/
 venv/
+
+__pycache__/

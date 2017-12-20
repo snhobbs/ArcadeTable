@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-DEBUG = False#True
+DEBUG = True
 
 if(DEBUG):
     from fake_rpi import RPi
@@ -27,6 +27,13 @@ class Process(object):
         self.args = args
 
     def call(self):
+        '''
+        Fixme, add the case that the process is already running.
+        For calling emulationstation it would do nothing if it exists,
+        for the games, have it switch unconditionally, or fail unless
+        not in a game?
+        Should the switches only activate after emulation station is running?
+        '''
         subprocess.call([self.cmd] + self.args)
 
 class Switch(object):
@@ -60,35 +67,34 @@ class SwitchController(object):
         for switch in self.switches:
             switch.setup()
     
-def run():
-    keySwitch = Switch(
-        pinKey,
-        Process('shutdown', ['--now']),
-    )
+keySwitch = Switch(
+    pinKey,
+    Process('shutdown', ['--now']),
+)
     
-    startBtn = Switch(
-        pinStart,
-        Process('emulationstation')
-    )
+startBtn = Switch(
+    pinStart,
+    Process('emulationstation')
+)
 
-    switchA = Switch(
-        pinA,
-        Process('echo', ['switch A'])
-    )
+switchA = Switch(
+    pinA,
+    Process('echo', ['switch A'])
+)
 
-    switchB = Switch(
-        pinB,
-        Process('echo', ['switch B'])
-    )
+switchB = Switch(
+    pinB,
+    Process('echo', ['switch B'])
+)
 
-    switchC = Switch(
-        pinC,
-        Process('echo', ['switch C'])
-    )
+switchC = Switch(
+    pinC,
+    Process('echo', ['switch C'])
+)
 
-    cont = SwitchController([keySwitch, startBtn, switchA, switchB, switchC])
+cont = SwitchController([keySwitch, startBtn, switchA, switchB, switchC])
 
-    cont.setup()
 
 if __name__ == "__main__":
+    cont.setup()
     run()
