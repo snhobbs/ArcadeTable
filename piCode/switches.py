@@ -1,5 +1,12 @@
-#!/usr/env python3
-import RPi.GPIO as GPIO
+#!/usr/bin/env python3
+
+DEBUG = False#True
+
+if(DEBUG):
+    from fake_rpi import RPi
+    GPIO = RPi.GPIO
+else:
+    import RPi.GPIO as GPIO
 import time
 import threading
 import subprocess
@@ -35,12 +42,12 @@ class Switch(object):
             [self.pin], 
             self.direction, 
             pull_up_down = self.resMode,
-            bouncetime=200
         )
         GPIO.add_event_detect(
             self.pin, 
             self.edgeMode, 
-            call_back = self.process.call
+            callback = self.process.call,
+            bouncetime=200
         )
 
 class SwitchController(object):
@@ -55,7 +62,7 @@ class SwitchController(object):
     
 def run():
     keySwitch = Switch(
-        pinKen,
+        pinKey,
         Process('shutdown', ['--now']),
     )
     
